@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><rect width="64" height="64" rx="18" fill="#146c4b"/><g transform="translate(12 12) scale(1.6667)"><path d="m4 7 3 10 5-7 5 7 3-10M9 5h6" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 512 512" role="img" aria-label="WriteFlow logo — manuscript and flowing pen mark">
+<defs>
+  <linearGradient id="tile" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#084631"/><stop offset=".64" stop-color="#0D6749"/><stop offset="1" stop-color="#128862"/></linearGradient>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#DBFFF0"/></linearGradient>
+  <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#C4FFE6"/></linearGradient>
+</defs>
+<rect width="64" height="64" rx="110" fill="url(#tile)"/>
+<!-- Manuscript sheet with folded page corner -->
+<path d="M180 103 H294 L359 168 V334 Q359 350 343 350 H180 Q164 350 164 334 V119 Q164 103 180 103 Z" fill="url(#paper)"/>
+<path d="M294 103 V151 Q294 168 311 168 H359 Z" fill="#83D8B3"/>
+<!-- Text strokes: hints of a document, not a third-party product icon -->
+<path d="M199 180 H274 M199 210 H304" stroke="#16835E" stroke-width="13" stroke-linecap="round"/>
+<!-- Deep green outline keeps the white W legible over both page and background -->
+<path d="M94 289 C113 289 126 319 153 386 C160 402 175 408 188 390 L253 297 Q267 277 278 306 L307 388 Q316 415 336 390 L397 305" fill="none" stroke="#0B6044" stroke-width="66" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M94 289 C113 289 126 319 153 386 C160 402 175 408 188 390 L253 297 Q267 277 278 306 L307 388 Q316 415 336 390 L397 305" fill="none" stroke="url(#ribbon)" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Nib joins the final rising W stroke -->
+<path d="M378 301 L444 225 Q451 219 448 231 L439 302 Q437 313 426 322 L404 341 Z" fill="#E8FFF4" stroke="#0B6044" stroke-width="9" stroke-linejoin="round"/>
+<circle cx="424" cy="277" r="8" fill="#0E704F"/>
+</svg>
